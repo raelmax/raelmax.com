@@ -118,8 +118,38 @@ body
   text-decoration: none;
   color: #f4f4f4;
 }
-
-
+#contact h2 {
+  margin-bottom: 35px;
+}
+#contact-form {
+  width: 350px;
+}
+.input-data {
+  margin-bottom: 15px;
+}
+.input-data input {
+  height: 35px;
+}
+.input-data textarea {
+  height: 150px;
+}
+.input-data input,
+.input-data textarea {
+  border: 1px solid #c1c1c1;
+  padding: 5px;
+  width: 340px;
+}
+#contact article {
+  text-align: right;
+  width: 330px;
+}
+#contact article * {
+  margin: 0;
+}
+#contact article p:last-child {
+  margin: 30px 0;
+  color: #999;
+}
 
 
 @media only screen and (min-width: 35em) {
@@ -136,6 +166,8 @@ body
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
