@@ -66,18 +66,13 @@ td { vertical-align: top; }
 
 /*Site*/
 body
-{ background: url(../img/bg.png); }
+{ background: url(../img/bg.png); font-family: 'Bree Serif', serif; }
 
 #page {
-  font-family: 'Bree Serif', serif;
-  margin-left: -360px;
-  margin-top: -200px;
-  position: absolute;
-  height: 400px;
+  position: relative;
+  margin: 0 auto;
   width: 720px;
   color: #666;
-  left: 50%;
-  top: 50%;
 }
 #page h1,
 #page h2 {
@@ -91,13 +86,38 @@ body
 #page a {
   color: #444;
 }
-#page nav {
+#page section {
+  padding-top: 65px;
+}
+#page section nav {
   text-align: right;
 }
-#page nav li {
+#page section nav li {
   display: inline;
 }
-
+#menu {
+  background: #444;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  z-index: 10;
+}
+#menu ul {
+  margin: 0 auto;
+  width: 720px;
+}
+#menu li {
+  line-height: 40px;
+  display: inline;
+  padding-right: 40px;
+}
+#menu li.current a {
+  color: #c4c4c4;
+}
+#menu a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
 
 
 
