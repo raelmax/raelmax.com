@@ -51,106 +51,106 @@
       <div id="projects-list">
         <ul>
           <li>
-            <a href="#"><img src="/static/media/port2.jpg"></a>
+            <a href="#"><img src="/static/content/port2.jpg"></a>
             <div>
               <h3>Rádio FMTerra</h3>
               <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port2_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port2_big.jpg">&raquo; imagem ampliada</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port3.jpg"></a>
+            <a href="#"><img src="/static/content/port3.jpg"></a>
             <div>
               <h3>Dep. Marcelo Pereira</h3>
               <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port3_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port3_big.jpg">&raquo; imagem ampliada</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port4.jpg"></a>
+            <a href="#"><img src="/static/content/port4.jpg"></a>
             <div>
               <h3>Romanos Pizzaria</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port4_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port4_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.romanospizzaria.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port7.jpg"></a>
+            <a href="#"><img src="/static/content/port7.jpg"></a>
             <div>
               <h3>Blog do Jan Ricardo</h3>
               <p><b>Trabalho: </b>Wordpress, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port7_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port7_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.janricardo.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port8.jpg"></a>
+            <a href="#"><img src="/static/content/port8.jpg"></a>
             <div>
               <h3>Curso Praticar</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port8_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port8_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.cursopraticar.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port9.jpg"></a>
+            <a href="#"><img src="/static/content/port9.jpg"></a>
             <div>
               <h3>FECOIMP</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port9_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port9_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.fecoimp.org</a></p>
             </div>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><img src="/static/media/port10.jpg"></a>
+            <a href="#"><img src="/static/content/port10.jpg"></a>
             <div>
               <h3>Sementes do Verbo</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port10_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port10_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.sementesdoverbo.org.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port11.jpg"></a>
+            <a href="#"><img src="/static/content/port11.jpg"></a>
             <div>
               <h3>Pesca no Xingú</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port11_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port11_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.pescanoxingu.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port12.jpg"></a>
+            <a href="#"><img src="/static/content/port12.jpg"></a>
             <div>
               <h3>Tecnoplac</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/media/port12_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/content/port12_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.tecnoplac.ind.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port5.jpg"></a>
+            <a href="#"><img src="/static/content/port5.jpg"></a>
             <div>
               <h3>OAB Imperatriz</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
@@ -160,7 +160,7 @@
             </div>
           </li>
           <li>
-            <a href="#"><img src="/static/media/port6.jpg"></a>
+            <a href="#"><img src="/static/content/port6.jpg"></a>
             <div>
               <h3>Labormag</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
@@ -173,18 +173,18 @@
     </section>
     <section id="contact" class="site-page">
       <h2>Entre em contato</h2>
-      <form id="contact-form" action="" method="post" class="fl">
+      <form id="contact-form" action="/enviar" method="post" class="fl">
         <div class="input-data">
           <label for="id_nome">Nome</label>
-          <input id="id_nome" type="text" name="nome">
+          <input id="id_nome" type="text" name="name">
         </div>
         <div class="input-data">
           <label for="id_nome">Email</label>
-          <input id="id_nome" type="email" name="nome">
+          <input id="id_nome" type="email" name="email">
         </div>
         <div class="input-data">
           <label for="id_nome">Mensagem</label>
-          <textarea id="id_nome" name="nome"></textarea>
+          <textarea id="id_nome" name="message"></textarea>
         </div>
         <input class="fr" type="submit" value="enviar">
       </form>
