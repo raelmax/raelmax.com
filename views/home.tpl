@@ -17,10 +17,10 @@
   <meta property="og:image" content="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
   <!--<meta name="viewport" content="width=device-width">-->
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/static/css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+  <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
   <a href="http://github.com/raelmax"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 12;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
@@ -40,9 +40,9 @@
       <p>Tem um projeto legal e precisa de alguém com experiência para lhe ajudar a desenvolver? <a href="mailto:contato@raelmax.com">Entre em contato!</a></p>
       <nav>
         <ul>
-          <li><a href="http://blog.raelmax.com" title="Blog"><img src="img/wordpress-logo-square.png" alt="Blog"></a></li>
-          <li><a href="http://linkedin.com/in/raelmax" title="Currículo"><img src="img/linkedin-logo-square2.png" alt="Currículo"></a></li>
-          <li><a href="mailto:contato@raelmax.com" title="Entre em contato"><img src="img/mail-square.png" alt="Entre em contato"></a></li>
+          <li><a href="http://blog.raelmax.com" title="Blog"><img src="/static/img/wordpress-logo-square.png" alt="Blog"></a></li>
+          <li><a href="http://linkedin.com/in/raelmax" title="Currículo"><img src="/static/img/linkedin-logo-square2.png" alt="Currículo"></a></li>
+          <li><a href="mailto:contato@raelmax.com" title="Entre em contato"><img src="/static/img/mail-square.png" alt="Entre em contato"></a></li>
         </ul>
       </nav>
     </section>
@@ -51,106 +51,106 @@
       <div id="projects-list">
         <ul>
           <li>
-            <a href="#"><img src="media/port2.jpg"></a>
+            <a href="#"><img src="/static/media/port2.jpg"></a>
             <div>
               <h3>Rádio FMTerra</h3>
               <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port2_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port2_big.jpg">&raquo; imagem ampliada</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port3.jpg"></a>
+            <a href="#"><img src="/static/media/port3.jpg"></a>
             <div>
               <h3>Dep. Marcelo Pereira</h3>
               <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port3_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port3_big.jpg">&raquo; imagem ampliada</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port4.jpg"></a>
+            <a href="#"><img src="/static/media/port4.jpg"></a>
             <div>
               <h3>Romanos Pizzaria</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port4_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port4_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.romanospizzaria.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port7.jpg"></a>
+            <a href="#"><img src="/static/media/port7.jpg"></a>
             <div>
               <h3>Blog do Jan Ricardo</h3>
               <p><b>Trabalho: </b>Wordpress, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port7_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port7_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.janricardo.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port8.jpg"></a>
+            <a href="#"><img src="/static/media/port8.jpg"></a>
             <div>
               <h3>Curso Praticar</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port8_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port8_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.cursopraticar.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port9.jpg"></a>
+            <a href="#"><img src="/static/media/port9.jpg"></a>
             <div>
               <h3>FECOIMP</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port9_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port9_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.fecoimp.org</a></p>
             </div>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><img src="media/port10.jpg"></a>
+            <a href="#"><img src="/static/media/port10.jpg"></a>
             <div>
               <h3>Sementes do Verbo</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port10_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port10_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.sementesdoverbo.org.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port11.jpg"></a>
+            <a href="#"><img src="/static/media/port11.jpg"></a>
             <div>
               <h3>Pesca no Xingú</h3>
               <p><b>Trabalho: </b>Python/Django</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port11_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port11_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.pescanoxingu.com.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port12.jpg"></a>
+            <a href="#"><img src="/static/media/port12.jpg"></a>
             <div>
               <h3>Tecnoplac</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
               <p><b>Ano: </b>2011</p>
               <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="media/port12_big.jpg">&raquo; imagem ampliada</a></p>
+              <p><a href="/static/media/port12_big.jpg">&raquo; imagem ampliada</a></p>
               <p><a href="#">&raquo; www.tecnoplac.ind.br</a></p>
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port5.jpg"></a>
+            <a href="#"><img src="/static/media/port5.jpg"></a>
             <div>
               <h3>OAB Imperatriz</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
@@ -160,7 +160,7 @@
             </div>
           </li>
           <li>
-            <a href="#"><img src="media/port6.jpg"></a>
+            <a href="#"><img src="/static/media/port6.jpg"></a>
             <div>
               <h3>Labormag</h3>
               <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
@@ -198,11 +198,11 @@
     </section>
   </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/libs/jquery.scrollTo.js"></script>
-  <script src="js/libs/jquery.nav.min.js"></script>
-  <script src="js/script.js"></script>
+  <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="/static/js/plugins.js"></script>
+  <script src="/static/js/libs/jquery.scrollTo.js"></script>
+  <script src="/static/js/libs/jquery.nav.min.js"></script>
+  <script src="/static/js/script.js"></script>
   <script>
     var _gaq=[['_setAccount','UA-18745352-6'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
