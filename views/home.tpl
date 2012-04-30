@@ -183,15 +183,15 @@
       <form id="contact-form" action="/enviar" method="post" class="fl">
         <div class="input-data">
           <label for="id_nome">Nome</label>
-          <input id="id_nome" type="text" name="name">
+          <input id="id_nome" type="text" name="name" required>
         </div>
         <div class="input-data">
           <label for="id_nome">Email</label>
-          <input id="id_nome" type="email" name="email">
+          <input id="id_nome" type="email" name="email" required>
         </div>
         <div class="input-data">
           <label for="id_nome">Mensagem</label>
-          <textarea id="id_nome" name="message"></textarea>
+          <textarea id="id_nome" name="message" required></textarea>
         </div>
         <input class="fr" type="submit" value="enviar">
       </form>
