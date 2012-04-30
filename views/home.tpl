@@ -56,126 +56,128 @@
     <section id="projects" class="site-page">
       <h2>Alguns Projetos</h2>
       <div id="projects-list">
-        <ul>
-          <li>
-            <a href="#"><img src="/static/content/port2.jpg"></a>
-            <div>
-              <h3>Rádio FMTerra</h3>
-              <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port2_big.jpg">&raquo; imagem ampliada</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port3.jpg"></a>
-            <div>
-              <h3>Dep. Marcelo Pereira</h3>
-              <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port3_big.jpg">&raquo; imagem ampliada</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port4.jpg"></a>
-            <div>
-              <h3>Romanos Pizzaria</h3>
-              <p><b>Trabalho: </b>Python/Django</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port4_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.romanospizzaria.com.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port7.jpg"></a>
-            <div>
-              <h3>Blog do Jan Ricardo</h3>
-              <p><b>Trabalho: </b>Wordpress, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port7_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.janricardo.com.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port8.jpg"></a>
-            <div>
-              <h3>Curso Praticar</h3>
-              <p><b>Trabalho: </b>Python/Django</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port8_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.cursopraticar.com.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port9.jpg"></a>
-            <div>
-              <h3>FECOIMP</h3>
-              <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port9_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.fecoimp.org</a></p>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#"><img src="/static/content/port10.jpg"></a>
-            <div>
-              <h3>Sementes do Verbo</h3>
-              <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port10_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.sementesdoverbo.org.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port11.jpg"></a>
-            <div>
-              <h3>Pesca no Xingú</h3>
-              <p><b>Trabalho: </b>Python/Django</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port11_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.pescanoxingu.com.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port12.jpg"></a>
-            <div>
-              <h3>Tecnoplac</h3>
-              <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="/static/content/port12_big.jpg">&raquo; imagem ampliada</a></p>
-              <p><a href="#">&raquo; www.tecnoplac.ind.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port5.jpg"></a>
-            <div>
-              <h3>OAB Imperatriz</h3>
-              <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-              <p><a href="#">&raquo; www.oabimperatriz.com.br</a></p>
-            </div>
-          </li>
-          <li>
-            <a href="#"><img src="/static/content/port6.jpg"></a>
-            <div>
-              <h3>Labormag</h3>
-              <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
-              <p><b>Ano: </b>2011</p>
-              <p><b>Empresa: </b>INGG Ideias Web</p>
-            </div>
-          </li>
-        </ul>
+        <div id="project-wrapper">
+          <ul>
+            <li>
+              <a href="#"><img src="/static/content/port2.jpg"></a>
+              <div>
+                <h3>Rádio FMTerra</h3>
+                <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port2_big.jpg">&raquo; imagem ampliada</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port3.jpg"></a>
+              <div>
+                <h3>Dep. Marcelo Pereira</h3>
+                <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port3_big.jpg">&raquo; imagem ampliada</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port4.jpg"></a>
+              <div>
+                <h3>Romanos Pizzaria</h3>
+                <p><b>Trabalho: </b>Python/Django</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port4_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.romanospizzaria.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port7.jpg"></a>
+              <div>
+                <h3>Blog do Jan Ricardo</h3>
+                <p><b>Trabalho: </b>Wordpress, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port7_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.janricardo.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port8.jpg"></a>
+              <div>
+                <h3>Curso Praticar</h3>
+                <p><b>Trabalho: </b>Python/Django</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port8_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.cursopraticar.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port9.jpg"></a>
+              <div>
+                <h3>FECOIMP</h3>
+                <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port9_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.fecoimp.org</a></p>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="/static/content/port10.jpg"></a>
+              <div>
+                <h3>Sementes do Verbo</h3>
+                <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port10_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.sementesdoverbo.org.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port11.jpg"></a>
+              <div>
+                <h3>Pesca no Xingú</h3>
+                <p><b>Trabalho: </b>Python/Django</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port11_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.pescanoxingu.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port12.jpg"></a>
+              <div>
+                <h3>Tecnoplac</h3>
+                <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="/static/content/port12_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="#">&raquo; www.tecnoplac.ind.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port5.jpg"></a>
+              <div>
+                <h3>OAB Imperatriz</h3>
+                <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+                <p><a href="#">&raquo; www.oabimperatriz.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="/static/content/port6.jpg"></a>
+              <div>
+                <h3>Labormag</h3>
+                <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
+                <p><b>Ano: </b>2011</p>
+                <p><b>Empresa: </b>INGG Ideias Web</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <section id="contact" class="site-page">
@@ -209,6 +211,7 @@
   <script src="/static/js/plugins.js"></script>
   <script src="/static/js/libs/jquery.scrollTo.js"></script>
   <script src="/static/js/libs/jquery.nav.min.js"></script>
+  <script src="/static/js/libs/jquery.cycle.all.js"></script>
   <script src="/static/js/script.js"></script>
   <script>
     var _gaq=[['_setAccount','UA-18745352-6'],['_trackPageview']];

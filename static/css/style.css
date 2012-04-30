@@ -173,8 +173,9 @@ body
   margin-bottom: 35px;
 }
 #projects-list {
+  position: relative;
   overflow: hidden;
-  height: 475px;
+  height: 505px;
 }
 #projects ul {
   padding: 0;
@@ -200,6 +201,19 @@ body
   width: 200px;
   left: 0;
   top: 0;
+}
+#p-nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#p-nav * {
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+}
+#p-nav .activeSlide {
+  color: #000;
 }
 #projects li div h3,
 #projects li div a {

@@ -1,15 +1,14 @@
-/* Author:
-
-*/
-
 $(document).ready(function(){
-    $('#notification').fadeIn('slow');
+    var $notification = $('#notification'),
+        $projectsList = $('#projects-list');
+
+    $notification.fadeIn('slow');
     setTimeout(function(){
-        $('#notification').fadeOut('slow');
+        $notification.fadeOut('slow');
     }, 5000);
     $('#menu').onePageNav({changeHash: true});
     $('#page').find('section').css({height: $(window).height()});
-    $('#projects-list').find('li').each(function(){
+    $projectsList.find('li').each(function(){
         $this = $(this);
         $this.find('div').hide();
         $this.hover(function(){
@@ -17,5 +16,9 @@ $(document).ready(function(){
         }, function(){
             $(this).find('div').stop(true, true).fadeOut('slow');
         });
+    });
+    $projectsList.append('<div id="p-nav">').find("#project-wrapper").cycle({
+        timeout: 0,
+        pager: '#p-nav'
     });
 });
