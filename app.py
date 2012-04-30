@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 import sqlite3
-from bottle import route, view, run, request, static_file
+from bottle import route, view, run, request, redirect, static_file
 
 @route('/')
 @view('home')
 def index():
-    return {'message': ''}
+    msg = request.GET.get('form_success', 'none')
+    return {'msg': msg}
 
 @route('/enviar', method='POST')
-@view('home')
 def contact():
     name = request.POST.get('name', 0)
     email = request.POST.get('email', 0)
@@ -20,8 +20,8 @@ def contact():
         c.execute("INSERT INTO contatos (name, email, message) VALUES (?, ?, ?)", (name, email, message))
         conn.commit()
         c.close()
-        return {'message': 'Formulário enviado com sucesso! Em breve entrarei em contato!'}
-    return {'message': 'Ocorreu um erro no envio do seu formulário, tente novamente.'}
+        return redirect('/?form_success=true')
+    return redirect('/?form_success=false')
 
 @route('/favicon.ico')
 def server_fav():
@@ -32,4 +32,4 @@ def server_static(filepath):
     return static_file(filepath, root='./static/')
 
 
-run(host='localhost', port=8000, reloader=True)
+run(host='localhost', port=8000)

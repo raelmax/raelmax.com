@@ -23,7 +23,14 @@
   <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
-  <a href="http://github.com/raelmax"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 12;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+  <a href="http://github.com/raelmax"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 12;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+  %if not msg == 'none':
+    %if msg == 'true':
+      <p>Sua mensagem foi enviada com sucesso. Em breve entrarei em contato.</p>
+    %else:
+      <p>Ocorreu um erro no envio de sua mensagem, verifique os dados e tente novamente.</p>
+    %end
+  %end
   <nav id="menu">
     <ul>
       <li><a href="#about">Sobre mim</a></li>
@@ -172,7 +179,6 @@
       </div>
     </section>
     <section id="contact" class="site-page">
-      {{ message }}
       <h2>Entre em contato</h2>
       <form id="contact-form" action="/enviar" method="post" class="fl">
         <div class="input-data">
