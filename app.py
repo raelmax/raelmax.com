@@ -1,23 +1,27 @@
+# -*- coding: utf-8 -*-
 import sqlite3
 from bottle import route, view, run, request, static_file
 
 @route('/')
 @view('home')
 def index():
-    return {}
+    return {'message': ''}
 
 @route('/enviar', method='POST')
 @view('home')
-def contato():
-    data = request.POST
-    conn = sqlite3.connect('base.db')
-    c = conn.cursor()
+def contact():
+    name = request.POST.get('name', 0)
+    email = request.POST.get('email', 0)
+    message = request.POST.get('message', 0)
 
-    c.execute("INSERT INTO contatos (name, email, message) VALUES (?, ?, ?)", (data.get('name'), data.get('email'), data.get('message')))
-    conn.commit()
-    c.close()
-
-    return {'message': 'thanks'}
+    if name and email and message:
+        conn = sqlite3.connect('base.db')
+        c = conn.cursor()
+        c.execute("INSERT INTO contatos (name, email, message) VALUES (?, ?, ?)", (name, email, message))
+        conn.commit()
+        c.close()
+        return {'message': 'Formulário enviado com sucesso! Em breve entrarei em contato!'}
+    return {'message': 'Ocorreu um erro no envio do seu formulário, tente novamente.'}
 
 @route('/favicon.ico')
 def server_fav():

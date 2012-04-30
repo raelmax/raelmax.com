@@ -172,6 +172,7 @@
       </div>
     </section>
     <section id="contact" class="site-page">
+      {{ message }}
       <h2>Entre em contato</h2>
       <form id="contact-form" action="/enviar" method="post" class="fl">
         <div class="input-data">
