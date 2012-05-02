@@ -18,6 +18,7 @@ def contact():
 
     if name and email and message:
         conn = sqlite3.connect('base.db')
+        conn.text_factory = str
         c = conn.cursor()
         c.execute("INSERT INTO contatos (name, email, message) VALUES (?, ?, ?)", (name, email, message))
         conn.commit()
