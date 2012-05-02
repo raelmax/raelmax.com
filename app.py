@@ -2,11 +2,13 @@
 import sqlite3
 from bottle import route, view, run, request, redirect, static_file
 
+
 @route('/')
 @view('home')
 def index():
     msg = request.GET.get('form_success', 'none')
     return {'msg': msg}
+
 
 @route('/enviar', method='POST')
 def contact():
@@ -23,9 +25,11 @@ def contact():
         return redirect('/?form_success=true')
     return redirect('/?form_success=false')
 
+
 @route('/favicon.ico')
 def server_fav():
     return static_file('favicon.ico', root='./')
+
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
