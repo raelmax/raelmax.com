@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    'use strict';
     var $notification = $('#notification'),
         $projectsList = $('#projects-list');
 
@@ -9,7 +10,7 @@ $(document).ready(function(){
     $('#menu').onePageNav({changeHash: true});
     $('#page').find('section').css({height: $(window).height()});
     $projectsList.find('li').each(function(){
-        $this = $(this);
+        var $this = $(this);
         $this.find('div').hide();
         $this.hover(function(){
             $(this).find('div').stop(true, true).fadeIn('slow');

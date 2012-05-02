@@ -45,7 +45,7 @@
       <h1>Rael Max</h1>
       <h2>Desenvolvedor Web</h2>
       <p>Sou desenvolvedor web com uma paixão especial por frontend. Com mais de 4 anos de experiência na área de desenvolvimento, já desenvolvi dezenas de projetos como sites insitucionais, blogs, sistemas e lojas virtuais. Entre as tecnologias que utilizo, as principais são Python, Django, html[5], css[3], javascript[jquery].</p>
-      <p>Tem um projeto legal e precisa de alguém com experiência para lhe ajudar a desenvolver? <a href="mailto:contato@raelmax.com">Entre em contato!</a></p>
+      <p>Tem um projeto legal e precisa de alguém com experiência para lhe ajudar a desenvolver? Dê uma olhada nos <a href="#projects">meus projetos</a> e <a href="#contact">entre em contato!</a></p>
       <nav>
         <ul>
           <li><a href="http://blog.raelmax.com" title="Blog"><img src="/static/img/wordpress-logo-square.png" alt="Blog"></a></li>
