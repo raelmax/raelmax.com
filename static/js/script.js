@@ -19,6 +19,8 @@ $(document).ready(function(){
     });
     $projectsList.append('<div id="p-nav">').find("#project-wrapper").cycle({
         timeout: 0,
+        speed: 'fast',
         pager: '#p-nav'
     });
+    $('.fancybox').fancybox();
 });

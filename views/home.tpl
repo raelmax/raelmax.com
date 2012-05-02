@@ -18,6 +18,7 @@
   <!--<meta name="viewport" content="width=device-width">-->
 
   <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
   <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
   <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
@@ -65,7 +66,7 @@
                 <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port2_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="/static/content/port2_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
               </div>
             </li>
             <li>
@@ -75,7 +76,7 @@
                 <p><b>Trabalho: </b>Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port3_big.jpg">&raquo; imagem ampliada</a></p>
+                <p><a href="/static/content/port3_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
               </div>
             </li>
             <li>
@@ -85,8 +86,8 @@
                 <p><b>Trabalho: </b>Python/Django</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port4_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.romanospizzaria.com.br</a></p>
+                <p><a href="/static/content/port4_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.romanospizzaria.com.br" class="fancybox">&raquo; www.romanospizzaria.com.br</a></p>
               </div>
             </li>
             <li>
@@ -96,8 +97,8 @@
                 <p><b>Trabalho: </b>Wordpress, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port7_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.janricardo.com.br</a></p>
+                <p><a href="/static/content/port7_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.janricardo.com.br" class="fancybox">&raquo; www.janricardo.com.br</a></p>
               </div>
             </li>
             <li>
@@ -107,8 +108,8 @@
                 <p><b>Trabalho: </b>Python/Django</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port8_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.cursopraticar.com.br</a></p>
+                <p><a href="/static/content/port8_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.cursopraticar.com.br" class="fancybox">&raquo; www.cursopraticar.com.br</a></p>
               </div>
             </li>
             <li>
@@ -118,8 +119,8 @@
                 <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port9_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.fecoimp.org</a></p>
+                <p><a href="/static/content/port9_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.fecoimp.org" class="fancybox">&raquo; www.fecoimp.org</a></p>
               </div>
             </li>
           </ul>
@@ -131,8 +132,8 @@
                 <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port10_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.sementesdoverbo.org.br</a></p>
+                <p><a href="/static/content/port10_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.sementesdoverbo.org.br" class="fancybox">&raquo; www.sementesdoverbo.org.br</a></p>
               </div>
             </li>
             <li>
@@ -142,8 +143,8 @@
                 <p><b>Trabalho: </b>Python/Django</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port11_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.pescanoxingu.com.br</a></p>
+                <p><a href="/static/content/port11_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.pescanoxingu.com.br" class="fancybox">&raquo; www.pescanoxingu.com.br</a></p>
               </div>
             </li>
             <li>
@@ -153,8 +154,8 @@
                 <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="/static/content/port12_big.jpg">&raquo; imagem ampliada</a></p>
-                <p><a href="#">&raquo; www.tecnoplac.ind.br</a></p>
+                <p><a href="/static/content/port12_big.jpg" class="fancybox">&raquo; imagem ampliada</a></p>
+                <p><a href="http://www.tecnoplac.ind.br" class="fancybox">&raquo; www.tecnoplac.ind.br</a></p>
               </div>
             </li>
             <li>
@@ -164,7 +165,7 @@
                 <p><b>Trabalho: </b>Python, Django, HTML, CSS, Javascript(jQuery)</p>
                 <p><b>Ano: </b>2011</p>
                 <p><b>Empresa: </b>INGG Ideias Web</p>
-                <p><a href="#">&raquo; www.oabimperatriz.com.br</a></p>
+                <p><a href="http://www.oabimperatriz.com.br" class="fancybox">&raquo; www.oabimperatriz.com.br</a></p>
               </div>
             </li>
             <li>
@@ -212,6 +213,8 @@
   <script src="/static/js/libs/jquery.scrollTo.js"></script>
   <script src="/static/js/libs/jquery.nav.min.js"></script>
   <script src="/static/js/libs/jquery.cycle.all.js"></script>
+  <script src="/static/js/libs/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script src="/static/js/libs/jquery.fancybox.js"></script>
   <script src="/static/js/script.js"></script>
   <script>
     var _gaq=[['_setAccount','UA-18745352-6'],['_trackPageview']];
