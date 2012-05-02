@@ -24,7 +24,7 @@
   <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
-  <a href="http://github.com/raelmax"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 12;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+  <a href="https://github.com/raelmax/raelmax.com"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 12;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
   %if not msg == 'none':
     %if msg == 'true':
       <p id="notification" class="success">Sua mensagem foi enviada com sucesso. Em breve entrarei em contato.</p>
@@ -203,7 +203,7 @@
         <h4>Desenvolvedor Web</h4>
         <p>contato@raelmax.com</p>
         <p>(99) 8193-5083 / (99) 3525-3610</p>
-        <p>O código fonte dessa página está comprimido, caso queria ver a versão original dê uma olhada no projeto no meu <a href="#">github</a>.</p>
+        <p>O código fonte dessa página está comprimido, caso queria ver a versão original dê uma olhada no projeto no meu <a href="https://github.com/raelmax/raelmax.com">github</a>.</p>
       </article>
     </section>
   </div>
